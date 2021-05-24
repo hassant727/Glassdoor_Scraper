@@ -14,7 +14,7 @@ def hackernews_rss():
     try:
         # execute my request, parse the data using XML
         # parser in BS4
-        r = requests.get('https://news.ycombinator.com/rss')
+        r = requests.get('https://news.google.com/rss/search?q=Aptiv')
         soup = BeautifulSoup(r.content, features='xml')
 
         # select only the "items" I want from the data
