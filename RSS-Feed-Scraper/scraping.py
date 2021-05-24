@@ -43,3 +43,6 @@ def hackernews_rss():
         print('The scraping job failed. See exception:')
         print(e)
 
+print('Starting scraping')
+hackernews_rss()
+print('Finished scraping')
