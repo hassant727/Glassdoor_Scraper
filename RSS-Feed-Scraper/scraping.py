@@ -25,6 +25,7 @@ def hackernews_rss():
             title = a.find('title').text
             link = a.find('link').text
             published = a.find('pubDate').text
+            description = a.find()
 
             # create an "article" object with the data
             # from each "item"
